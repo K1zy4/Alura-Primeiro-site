@@ -100,6 +100,27 @@ section button:hover {
     color: #45474B; /* Cor do texto */
     margin: 0.5rem 0; /* Margem acima e abaixo */
 }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.imagem-pokemon {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
 
 /* Estiliza o rodapé da página */
 footer {
@@ -132,6 +153,7 @@ footer {
     .item-resultado h2 {
         font-size: 1.3rem; /* Tamanho da fonte dos títulos em telas menores */
     }
+    
 }
 
 /* Responsividade para celulares */
@@ -163,4 +185,5 @@ footer {
     footer {
         font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
     }
+    
 }
